@@ -6,8 +6,8 @@ def start(update: Update, context: CallbackContext):
     user = update.message.from_user
 
     update.message.reply_text(
-        f'Assalomu alaykum! Botimizga xush kelibsiz {user.full_name}.\n\n'
-        'bu bot testing uchun'
+        f'Assalomu alaykum  {user.full_name} Sizga qanday yordam bera olaman.\n\n'
+    
     )
 
 
